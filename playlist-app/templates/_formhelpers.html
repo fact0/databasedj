@@ -1,0 +1,15 @@
+{% macro render_input_field(field) %}
+<div class="form-group">
+	{{ field.label(class_="label is-small") }} {{ field(class_="form-control my-2")
+	}} {% for err in field.errors %}
+	<p class="help is-danger">{{ err }}</p>
+	{% endfor %}
+</div>
+{% endmacro %} {% macro render_select_field(field) %}
+<div class="form-group">
+	{{ field.label(class_="label is-small") }} {{ field(class_="form-control my-2")
+	}} {% for err in field.errors %}
+	<p class="help is-danger">{{ err }}</p>
+	{% endfor %}
+</div>
+{% endmacro %}
