@@ -1,3 +1,5 @@
 Time taken: 4 hours
 
 No real questions, pretty straight forward, didn't bother to style and just worked around the bootstrap that was there.
+
+hardest part of this was the SQL queries....sqlalchemy made me kinda unlearn it, but I figured it out after a bit.
